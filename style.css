@@ -1,48 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
+  font-family: sans-serif;
 }
 
-.body {
-  display: flex;
-  flex: 1;
+/* SECTION 1 */
+.flex-container1 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 13em;
+  padding-right: 13em;
+  background-color: #1F2937;
 }
-
 
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: #1F2937;
-  
-
-
+  align-items: baseline;
 }
 
-
-.header.logo {
-  display: flex;
-  align-items: center;
-  color: white;
+#headerlogo {
+  color: #F9FAF8;
   font-size: 24px;
-  font-weight: #F9FAF8;
- 
-
 }
 
 ul {
   display: flex;
-  
-  align-items: center;
   list-style-type: none;
-   gap: 88px;
-  
+  gap: 2em;
 }
 
 a {
  text-decoration: none;
- color: white;
- font-size: 24px;
- font-weight: bold; 
+ color: #E5E7EB;
+ font-size: 18px; 
 }
+
+
+/* SECTION 2 */
+.awesome {
+  display: flex;
+  align-items: center;
+  
+  padding-top: 7em 0;
+  padding-bottom: 7em 0;
+  padding-left: 0;
+  padding-right: 0;
+  justify-content: center;
+
+  gap: 6em;
+}
+
+.awesome .left{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.awesome.header {
+  font-size: 48px;
+  font-weight: 900px;
+  color: #F9FAF8;
+}
+
+.para1 {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.awesome .right {
+  flex-shrink: 0;
+  width: 50%;
+}
+
+.signup1 {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 120px;
+  background-color: #3882F6;
+  border-radius: 8px;
+  color: #F9FAF8;
+  text-align: center;
+}
+
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  height: 215px;
+  
+}
+
+.para2 {
+  font-size: 18px;
+  color: #F9FAF8;
+}
+
+
+/* SECTION 3 */
+
+.flex-container2 {
+  background-color: white;
+  padding-top: 1em;
+  padding-bottom: 11em;
+  padding-left: 13em;
+  padding-right: 13em;
+  margin-top: 3em;
+  margin-right: 0;
+  margin-bottom: 6em;
+  margin-left: 0;
+}
+
+
+h2 {
+  font-weight: 900;
+  font-size: 36px;
+  color: #1F2937;
+  text-align: center;
+}
+
+
+
+.square {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.boxes {
+  width: 155px;
+  height: 155px;
+  padding: 10px;;
+  border-color:#3882F6;
+  border-style: solid;
+  border-radius: 20px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
