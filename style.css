@@ -59,12 +59,12 @@ a:link {
  .awesomeheader .left {
    display: flex;
    flex-direction: column;
-   gap: 10px;
+   gap: 3px;
  }
 
  .awesomeheader .right {
    flex-shrink: 0;
-   width: 50%;
+   width: 55%;
  }
 
  .awesome {
@@ -81,11 +81,9 @@ button {
   width: 120px;
   background-color: #3882F6;
   border-radius: 8px;
+  margin-top: 10px;
 }
 
-.awesomeheader button {
-  border: none;
-}
 
 .image {
   display: flex;
@@ -93,21 +91,27 @@ button {
   align-items: center;
   background-color: grey;
   height: 215px;
+  color: #F9FAF8;
+  margin-right: 5px;
 }
 
 
+.awesomeheader button {
+  border: none;
+}
 
 
+.button1 {
+  text-decoration: none;
+}
 
 
-
-
-/* SECTION 3  */
+/* SECTION 3: Some Random Information */
 
 .flex-container2 {
   background-color: white;
   padding-top: 1em;
-  padding-bottom: 11em;
+  padding-bottom: 2em;
   padding-left: 13em;
   padding-right: 13em;
   margin-top: 3em;
@@ -153,10 +157,25 @@ h2 {
   border-radius: 18px;
 }
 
-/* SECTION 4 */
+/* SECTION 4: Quote */
 
-.flex-container4 {
+.quote {
   background-color: #E5E7EB;
-  padding-top: 
+  padding-top: 8em;
+  padding-bottom: 8em;
+  padding-left: 13em;
+  padding-right: 13em;
+  height: 190px;
 
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.quote p {
+  padding-left: 8.2em;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1F2937;
 }
