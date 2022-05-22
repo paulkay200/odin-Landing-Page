@@ -7,86 +7,85 @@ body {
   font-family: sans-serif;
 }
 
-/* SECTION 1: Header */
-.flex-container1 {
+
+  /* SECTION 1: Header */
+
+header {
+  background-color:#1F2937;
   padding-top: 1em;
   padding-bottom: 1em;
   padding-left: 13em;
   padding-right: 13em;
-  background-color: #1F2937;
+}
+ 
+#headerlogo {
+  font-size: 24px;
+  font-weight: 900;
+  color: #F9FAF8;
 }
 
-.header {
+.flex-container1 {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
 
-#headerlogo {
-  color: #F9FAF8;
-  font-size: 24px;
-}
-
-ul {
+.flex-container1 ul {
   display: flex;
   list-style-type: none;
-  gap: 2em;
+  gap: 4em;
 }
 
-a {
- text-decoration: none;
- color: #E5E7EB;
- font-size: 18px; 
-}
-
-
-/* SECTION 2: Some Random Information */
-.awesome {
-  display: flex;
-  align-items: center;
-  padding-top: 7em 0;
-  padding-bottom: 7em 0;
-  padding-left: 0;
-  padding-right: 0;
-  justify-content: center;
-  gap: 6em;
-}
-
-.awesome 
-.left{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.awesome.header {
-  font-size: 48px;
-  font-weight: 900px;
-  color: #F9FAF8;
-}
-
-.para1 {
+.para1,
+a:link {
   font-size: 18px;
   color: #E5E7EB;
+  text-decoration: none;
 }
 
-.awesome .right {
-  flex-shrink: 0;
-  width: 50%;
-}
+ /* SECTION2 : */
 
-.signup1 {
+ .awesomeheader {
+   padding-top: 7em;
+   padding-bottom: 7em;
+   padding-left: 0;
+   padding-right: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2em;
+ }
+
+ .awesomeheader .left {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+ }
+
+ .awesomeheader .right {
+   flex-shrink: 0;
+   width: 50%;
+ }
+
+ .awesome {
+   font-size: 48px;
+   font-weight: 900;
+   color: #F9FAF8;
+ }
+
+button {
   padding-top: 7px;
   padding-bottom: 7px;
   padding-left: 1em;
   padding-right: 1em;
-  width: 80px;
+  width: 120px;
   background-color: #3882F6;
   border-radius: 8px;
-  color: #F9FAF8;
-  text-align: center;
 }
 
+.awesomeheader button {
+  border: none;
+}
 
 .image {
   display: flex;
@@ -94,13 +93,13 @@ a {
   align-items: center;
   background-color: grey;
   height: 215px;
-  
 }
 
-.para2 {
-  font-size: 18px;
-  color: #F9FAF8;
-}
+
+
+
+
+
 
 
 /* SECTION 3  */
@@ -156,3 +155,8 @@ h2 {
 
 /* SECTION 4 */
 
+.flex-container4 {
+  background-color: #E5E7EB;
+  padding-top: 
+
+}
