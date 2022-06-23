@@ -1,1 +1,1 @@
-# odin-landing-page
+This is other CSS self-taught project. In the process of doing this project, I encountered unprecedented difficulties and challenges, especially the relationship of CSS layout and HTML elements.    
